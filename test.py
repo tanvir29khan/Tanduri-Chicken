@@ -1,15 +1,23 @@
-n = 5
+
+
+
+
+
+
+
+
+# n = 5
 # for i in range(1 , n+1):
 #     factorial = i *
 #     print (factorial)
 
-i = 1
-while i < n + 1:
-    x = i + 1
-    factorial = i * x
-    i += 1
+# i = 1
+# while i < n + 1:
+#     x = i + 1
+#     factorial = i * x
+#     i += 1
 
-print (factorial)
+# print (factorial)
 
 # A=[3,4,5]
 

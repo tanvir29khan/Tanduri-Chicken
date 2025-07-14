@@ -38,8 +38,10 @@ print(mylist)
 mylist.sort(reverse=True)
 print(mylist)
 
+
 def myfunc(m):
     return abs(n - 50)
+
 
 mylist.sort(key=myfunc)
 
