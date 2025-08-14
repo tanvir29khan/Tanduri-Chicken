@@ -50,10 +50,17 @@
 # print(x)
 
 
-n = int(input(" enter your number : "))
-x = 1
+# n = int(input(" enter your number : "))
+# x = 1
+
+# for i in range(1, n+1):
+#     x *= i
+
+# print(x)
+
+
+n = int(input("Enter your number: "))
 
 for i in range(1, n+1):
-    x *= i
-
-print(x)
+    print(" " * (n-i), end="")
+    print("*" * (2*i-1))
